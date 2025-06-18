@@ -1,0 +1,4 @@
+(design_block_lib_table
+  (version 7)
+  (lib (name "TPS54531DDAR")(type "KiCad")(uri "${KIPRJMOD}/blocks/TPS54531DDAR.kicad_blocks")(options "")(descr "TPS54531DDAR step-down voltage regulator"))
+)
