@@ -634,12 +634,12 @@
       "Root"
     ],
     [
-      "c69adcd9-8db2-4d1c-b251-cabb78b7bdf3",
-      "BDC_5V"
+      "2ed3a2ea-eafe-4a51-980f-b66aa97f323b",
+      "5V BDC"
     ],
     [
-      "9d30f95d-a326-40b9-80b4-5c5b5d5575ed",
-      "BDC_12V"
+      "c57542fd-7feb-405c-86ac-c3dd30139df0",
+      "12V BDC"
     ]
   ],
   "text_variables": {}
