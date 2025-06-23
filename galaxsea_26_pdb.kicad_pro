@@ -635,11 +635,7 @@
     ],
     [
       "2ed3a2ea-eafe-4a51-980f-b66aa97f323b",
-      "5V BDC"
-    ],
-    [
-      "c57542fd-7feb-405c-86ac-c3dd30139df0",
-      "12V BDC"
+      "BDC Module"
     ]
   ],
   "text_variables": {}

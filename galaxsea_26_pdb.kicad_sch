@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 174.625 53.34)
+		(at 198.755 33.655)
 		(size 53.975 34.925)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21,8 +21,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2ed3a2ea-eafe-4a51-980f-b66aa97f323b")
-		(property "Sheetname" "5V BDC"
-			(at 174.625 52.6284 0)
+		(property "Sheetname" "BDC Module"
+			(at 198.755 32.9434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +30,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "5V_BDC_Module.kicad_sch"
-			(at 174.625 88.8496 0)
+		(property "Sheetfile" "BDC_Module.kicad_sch"
+			(at 198.755 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,48 +43,6 @@
 			(project "galaxsea_26_pdb"
 				(path "/62a79688-1caa-411a-b477-96e92006e83c"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 175.26 99.06)
-		(size 53.975 34.925)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c57542fd-7feb-405c-86ac-c3dd30139df0")
-		(property "Sheetname" "12V BDC"
-			(at 175.26 98.3484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "12V_BDC_Module.kicad_sch"
-			(at 175.26 134.5696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "galaxsea_26_pdb"
-				(path "/62a79688-1caa-411a-b477-96e92006e83c"
-					(page "3")
 				)
 			)
 		)
