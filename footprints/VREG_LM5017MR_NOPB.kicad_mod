@@ -496,8 +496,8 @@
 	)
 	(pad "7" thru_hole circle
 		(at -0.65 -1.95)
-		(size 0.3 0.3)
-		(drill 0.2)
+		(size 0.4 0.4)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -505,8 +505,8 @@
 	)
 	(pad "7" thru_hole circle
 		(at -0.65 -0.65)
-		(size 0.3 0.3)
-		(drill 0.2)
+		(size 0.4 0.4)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -514,8 +514,8 @@
 	)
 	(pad "7" thru_hole circle
 		(at -0.65 0.65)
-		(size 0.3 0.3)
-		(drill 0.2)
+		(size 0.4 0.4)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -523,8 +523,8 @@
 	)
 	(pad "7" thru_hole circle
 		(at -0.65 1.95)
-		(size 0.3 0.3)
-		(drill 0.2)
+		(size 0.4 0.4)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -538,8 +538,8 @@
 	)
 	(pad "7" thru_hole circle
 		(at 0.65 -1.95)
-		(size 0.3 0.3)
-		(drill 0.2)
+		(size 0.4 0.4)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -547,8 +547,8 @@
 	)
 	(pad "7" thru_hole circle
 		(at 0.65 -0.65)
-		(size 0.3 0.3)
-		(drill 0.2)
+		(size 0.4 0.4)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -556,8 +556,8 @@
 	)
 	(pad "7" thru_hole circle
 		(at 0.65 0.65)
-		(size 0.3 0.3)
-		(drill 0.2)
+		(size 0.4 0.4)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -565,8 +565,8 @@
 	)
 	(pad "7" thru_hole circle
 		(at 0.65 1.95)
-		(size 0.3 0.3)
-		(drill 0.2)
+		(size 0.4 0.4)
+		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -587,4 +587,15 @@
 		(uuid "ed2229e2-dad4-4334-b42a-f968aaf6e6fc")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/TPS54531DDA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
