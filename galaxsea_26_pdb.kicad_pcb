@@ -95,7 +95,7 @@
 		(descr "Inductor, Vishay, IHLP series, 6.3mmx6.3mm")
 		(tags "inductor vishay ihlp smd")
 		(property "Reference" "L1"
-			(at 0 -4.175 90)
+			(at 0 4 90)
 			(layer "F.SilkS")
 			(uuid "bb43e753-a2e9-43be-9edf-29bc9320bc54")
 			(effects
@@ -315,7 +315,7 @@
 			(uuid "291b2bbb-1a2f-4cd6-b075-c99c0e940ba0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Vishay_IHLP-2525.step"
+		(model "${KIPRJMOD}/models/IHLP2525CZER2R2M01.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -323,7 +323,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5728,7 +5728,7 @@
 		(descr "Diode SMC (DO-214AB)")
 		(tags "Diode SMC (DO-214AB)")
 		(property "Reference" "D1"
-			(at 0 -4.1 0)
+			(at -3.7 3.9 0)
 			(layer "F.SilkS")
 			(uuid "67fb21e5-796d-4d2e-ad89-40865e175d99")
 			(effects
