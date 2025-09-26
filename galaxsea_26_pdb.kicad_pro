@@ -241,12 +241,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1892300|876300|e764adec-34d9-44a2-9e92-18b1cd78b1d7|00000000-0000-0000-0000-000000000000|/62a79688-1caa-411a-b477-96e92006e83c|/62a79688-1caa-411a-b477-96e92006e83c|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -506,7 +501,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../../Downloads/fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
