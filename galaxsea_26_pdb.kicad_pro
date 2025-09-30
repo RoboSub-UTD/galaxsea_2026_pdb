@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|149515000|88900000|3c0c7ed2-4f7f-4ad2-8581-ea5c803b29d2|23be542d-dbb4-408b-aef7-fe421aac4a98",
+          ""
+        ],
+        [
+          "silk_overlap|149515000|93800000|29296824-5fe4-43c9-8160-38c3ab14146b|23be542d-dbb4-408b-aef7-fe421aac4a98",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -627,10 +636,6 @@
     [
       "62a79688-1caa-411a-b477-96e92006e83c",
       "Root"
-    ],
-    [
-      "2ed3a2ea-eafe-4a51-980f-b66aa97f323b",
-      "BDC Module"
     ]
   ],
   "text_variables": {}
