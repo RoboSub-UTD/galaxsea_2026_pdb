@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 95.25 25.4)
+		(size 54.61 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b")
+		(property "Sheetname" "PDB"
+			(at 95.25 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pdb.kicad_sch"
+			(at 95.25 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 152.4 25.4)
 		(size 54.61 35.56)
 		(exclude_from_sim no)

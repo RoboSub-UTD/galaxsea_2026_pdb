@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.4,
-          "width": 0.4
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,27 +51,8 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        [
-          "silk_overlap|186774400|42138600|7fb39da4-5c7b-4d2b-b17c-deea9325baaf|9cdfd73c-b25a-4ce6-b5a8-e4ed85af42e7",
-          ""
-        ],
-        [
-          "silk_overlap|186774400|47038600|bb60a5b8-bd30-4e27-8c75-6d4eb2a90f38|9cdfd73c-b25a-4ce6-b5a8-e4ed85af42e7",
-          ""
-        ],
-        [
-          "silk_overlap|239065000|55810000|3c0c7ed2-4f7f-4ad2-8581-ea5c803b29d2|b30d9a82-0133-4fbb-8aac-7328e9bad619",
-          ""
-        ]
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -199,11 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.2,
-        0.6
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,12 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -478,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "galaxsea_26_pdb.kicad_pro",
+    "filename": "workshop.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -500,16 +472,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.2,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
-        "via_diameter": 0.8,
-        "via_drill": 0.5
       }
     ],
     "meta": {
@@ -517,31 +479,14 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "+BATT"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "BDC*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SIG*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../../Downloads/fab/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -665,36 +610,8 @@
   },
   "sheets": [
     [
-      "62a79688-1caa-411a-b477-96e92006e83c",
+      "c62c7f86-9208-42f0-bf8d-bdcacdc93261",
       "Root"
-    ],
-    [
-      "0ed0db07-5d8f-4b6d-87d9-d7b0754d2a02",
-      "BDC Test Module"
-    ],
-    [
-      "4e99cfc9-7b54-4144-b11e-e592c1952fb8",
-      "BDC Production Module"
-    ],
-    [
-      "1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b",
-      "PDB"
-    ],
-    [
-      "1460ffbb-26ff-4076-ac1d-c202ccd154e2",
-      "BDC1"
-    ],
-    [
-      "bf169032-237a-4397-8f9b-a017b9640aed",
-      "BDC2"
-    ],
-    [
-      "fd559523-114b-4376-bb1b-f0a769b7374c",
-      "BDC3"
-    ],
-    [
-      "802261e5-ae11-4c23-baa2-546b613ce079",
-      "BDC4"
     ]
   ],
   "text_variables": {}
