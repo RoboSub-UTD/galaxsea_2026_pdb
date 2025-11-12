@@ -1,4 +1,8 @@
 (fp_lib_table
   (version 7)
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
+  (lib (name "AMASS_XT30UPB-F_1x02_P5.0mm_Vertical")(type "KiCad")(uri "${KIPRJMOD}/footprints/AMASS_XT30UPB-F_1x02_P5.0mm_Vertical.pretty")(options "")(descr ""))
+  (lib (name "Connector_JST")(type "KiCad")(uri "${KIPRJMOD}/footprints/Connector_JST.pretty")(options "")(descr ""))
+  (lib (name "TerminalBlock")(type "KiCad")(uri "${KIPRJMOD}/footprints/TerminalBlock.pretty")(options "")(descr ""))
+  (lib (name "Connector_AMASS")(type "KiCad")(uri "${KIPRJMOD}/footprints/Connector_AMASS.pretty")(options "")(descr ""))
 )
