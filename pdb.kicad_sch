@@ -1459,6 +1459,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 100.33) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e022f5-1877-400f-98f8-246339273fb0")
+	)
+	(wire
+		(pts
 			(xy 119.38 71.12) (xy 119.38 69.85)
 		)
 		(stroke
@@ -1669,13 +1679,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 85.09) (xy 210.82 85.09)
+			(xy 176.53 102.87) (xy 166.37 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6aa94a0b-7e13-4a15-9f3f-0140ad380343")
+		(uuid "70080453-9e87-46e2-bd96-487eae22c6b2")
 	)
 	(wire
 		(pts
@@ -1736,16 +1746,6 @@
 			(type default)
 		)
 		(uuid "8db3b62d-a7bf-486c-9867-eed6dc88028a")
-	)
-	(wire
-		(pts
-			(xy 210.82 82.55) (xy 220.98 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93cb87fa-d1c7-4d4d-9104-2390f8c226e2")
 	)
 	(wire
 		(pts
@@ -1917,16 +1917,6 @@
 		)
 		(uuid "feea4d10-4e77-46b6-99c8-67b895ccc0e7")
 	)
-	(label "SIG1"
-		(at 220.98 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1e58db95-6f2e-40c5-9ecf-682bd78064c4")
-	)
 	(label "SIG3"
 		(at 220.98 87.63 180)
 		(effects
@@ -1937,16 +1927,6 @@
 		)
 		(uuid "2a80af28-8d94-4ba8-89bd-246e51fd6517")
 	)
-	(label "SIG2"
-		(at 220.98 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4b8b2881-ff26-47a0-bbd4-eeaef80d0453")
-	)
 	(label "SIG4"
 		(at 95.25 135.89 0)
 		(effects
@@ -1956,6 +1936,16 @@
 			(justify left bottom)
 		)
 		(uuid "50d1b764-a660-471e-af36-56ea07f52ec4")
+	)
+	(label "SIG1"
+		(at 166.37 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "629335b5-4fcd-45e1-8d54-faf661f00b9f")
 	)
 	(label "SIG1"
 		(at 95.25 67.31 0)
@@ -1986,6 +1976,16 @@
 			(justify left bottom)
 		)
 		(uuid "7b9b8cbc-7043-4f11-8187-352976b8a2b6")
+	)
+	(label "SIG2"
+		(at 166.37 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbfda049-3726-4520-aa0e-674413da9684")
 	)
 	(label "SIG3"
 		(at 95.25 113.03 0)
