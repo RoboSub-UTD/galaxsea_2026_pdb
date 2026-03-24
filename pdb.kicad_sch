@@ -1588,7 +1588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "footprints:CONN_B2B-XH-ALFSN_JST"
 			(at 227.33 64.77 0)
 			(effects
 				(font
@@ -3638,7 +3638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "footprints:CONN_B2B-XH-ALFSN_JST"
 			(at 207.01 82.55 0)
 			(effects
 				(font
