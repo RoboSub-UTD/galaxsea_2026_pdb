@@ -2276,7 +2276,7 @@
 				)
 			)
 		)
-		(property "Value" "XT-60"
+		(property "Value" "XT-30"
 			(at 227.33 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2286,7 +2286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 227.33 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3456,7 +3456,7 @@
 				)
 			)
 		)
-		(property "Value" "XT-60"
+		(property "Value" "XT-30"
 			(at 227.33 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3466,7 +3466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 227.33 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3768,7 +3768,7 @@
 				)
 			)
 		)
-		(property "Value" "XT-60"
+		(property "Value" "XT-30"
 			(at 207.01 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3778,7 +3778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 207.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5405,7 +5405,7 @@
 				)
 			)
 		)
-		(property "Value" "XT-60"
+		(property "Value" "XT-30"
 			(at 207.01 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5415,7 +5415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 207.01 129.54 0)
 			(hide yes)
 			(show_name no)
