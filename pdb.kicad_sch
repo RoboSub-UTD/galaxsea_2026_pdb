@@ -675,7 +675,7 @@
 	)
 	(text "Actuator (servos, motors, ect.) power line"
 		(exclude_from_sim no)
-		(at 58.928 25.146 0)
+		(at 60.96 26.162 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -685,7 +685,7 @@
 	)
 	(text "Logic (Cube Orange, Jetson, ect.) power line"
 		(exclude_from_sim no)
-		(at 57.912 50.292 0)
+		(at 64.262 51.562 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -693,15 +693,35 @@
 		)
 		(uuid "12744d28-27bb-4188-8b1a-6e5ff68ef039")
 	)
-	(text "Actuator (servos, motors, ect.) power line"
+	(text "Thruster outputs\n"
 		(exclude_from_sim no)
-		(at 57.912 52.832 0)
+		(at 220.726 99.822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "1745b0f7-85f5-4ae0-a443-6b74c286763a")
+		(uuid "3dacf584-f6b5-4de0-8583-9b9212d7e6d6")
+	)
+	(text "Spare Outputs"
+		(exclude_from_sim no)
+		(at 220.726 53.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "853f5632-aa95-4a07-9d00-1723f31da8b5")
+	)
+	(text "Buck Converter Modules"
+		(exclude_from_sim no)
+		(at 134.112 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5fbf54d-ee0e-4a24-b307-23f7cd435b76")
 	)
 	(junction
 		(at 38.1 60.96)
@@ -783,13 +803,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 142.24) (xy 138.43 134.62)
+			(xy 233.68 111.76) (xy 232.41 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e5c9c4b-5ebe-4c95-9c11-d551030d2065")
+		(uuid "1164ef53-aa60-4211-a0a0-38f75aacabbc")
+	)
+	(wire
+		(pts
+			(xy 212.09 109.22) (xy 213.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125b5294-7131-402a-9b9d-2e43f1a5c224")
 	)
 	(wire
 		(pts
@@ -843,6 +873,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 129.54) (xy 212.09 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230d8b8d-09af-4958-8e65-b6463a04063f")
+	)
+	(wire
+		(pts
 			(xy 233.68 83.82) (xy 233.68 82.55)
 		)
 		(stroke
@@ -880,16 +920,6 @@
 			(type default)
 		)
 		(uuid "2dc9c997-331f-48a8-9cbe-5f0ee5257c2b")
-	)
-	(wire
-		(pts
-			(xy 129.54 138.43) (xy 137.16 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "325238c0-1b42-454b-9dcc-afc956a518b9")
 	)
 	(wire
 		(pts
@@ -953,16 +983,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 134.62) (xy 135.89 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ef0e486-2a3d-4bdf-8a48-7818d29ece36")
-	)
-	(wire
-		(pts
 			(xy 105.41 109.22) (xy 109.22 109.22)
 		)
 		(stroke
@@ -970,6 +990,16 @@
 			(type default)
 		)
 		(uuid "4f91f159-ab71-4fa5-a91b-a32a3c348b40")
+	)
+	(wire
+		(pts
+			(xy 233.68 109.22) (xy 233.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb474b2-4387-42c7-81bb-c023b8368e98")
 	)
 	(wire
 		(pts
@@ -990,6 +1020,16 @@
 			(type default)
 		)
 		(uuid "543ab83f-fc9d-465c-a356-3946407b5127")
+	)
+	(wire
+		(pts
+			(xy 232.41 127) (xy 233.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5523a789-2efb-43f8-a1cc-bdd8e0ed1f78")
 	)
 	(wire
 		(pts
@@ -1023,6 +1063,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 111.76) (xy 212.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6d92fd-f474-425d-8821-c5dd171cfc4e")
+	)
+	(wire
+		(pts
+			(xy 213.36 127) (xy 213.36 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7f4416-f18c-4276-828f-1b6e12c41bcd")
+	)
+	(wire
+		(pts
 			(xy 213.36 66.04) (xy 213.36 64.77)
 		)
 		(stroke
@@ -1050,6 +1110,26 @@
 			(type default)
 		)
 		(uuid "7067e54c-92c0-4d79-84fe-df570b80d0e0")
+	)
+	(wire
+		(pts
+			(xy 233.68 130.81) (xy 233.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725df2db-e58c-45fb-886b-ffc9b2be7829")
+	)
+	(wire
+		(pts
+			(xy 213.36 130.81) (xy 213.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f9fb8c-c791-40e4-bf32-3a50d13b8404")
 	)
 	(wire
 		(pts
@@ -1093,16 +1173,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 138.43) (xy 137.16 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88a4322a-3763-4d50-a02b-ff4517ee5960")
-	)
-	(wire
-		(pts
 			(xy 50.8 29.21) (xy 50.8 27.94)
 		)
 		(stroke
@@ -1110,16 +1180,6 @@
 			(type default)
 		)
 		(uuid "8db3b62d-a7bf-486c-9867-eed6dc88028a")
-	)
-	(wire
-		(pts
-			(xy 125.73 142.24) (xy 138.43 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fd33158-b961-456f-ad50-d1de1c28a72f")
 	)
 	(wire
 		(pts
@@ -1133,13 +1193,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 146.05) (xy 137.16 146.05)
+			(xy 233.68 113.03) (xy 233.68 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "935b9d5d-4db5-4b0d-9047-dc7bebce48a3")
+		(uuid "93368ee8-d631-44b5-b29f-eb1b128b5e89")
+	)
+	(wire
+		(pts
+			(xy 233.68 129.54) (xy 232.41 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ee5462-9707-4d1d-b13e-77d07ca6b354")
 	)
 	(wire
 		(pts
@@ -1150,6 +1220,16 @@
 			(type default)
 		)
 		(uuid "95ed64d3-9819-4925-bc5c-73ea9bb1491c")
+	)
+	(wire
+		(pts
+			(xy 213.36 113.03) (xy 213.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a48edd-efed-4909-916a-ae994dc2ea84")
 	)
 	(wire
 		(pts
@@ -1283,13 +1363,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 134.62) (xy 135.89 135.89)
+			(xy 212.09 127) (xy 213.36 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd9e1f79-fed9-44db-a509-cc5ca72ac72c")
+		(uuid "d4145d40-4339-4a98-816f-7e387ab6e4a9")
 	)
 	(wire
 		(pts
@@ -1383,6 +1463,26 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 109.22) (xy 233.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef369729-df2b-4a5d-9e2c-779f7a10e76a")
+	)
+	(wire
+		(pts
+			(xy 213.36 109.22) (xy 213.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef65e228-cd4c-42e0-b852-48caf16b4322")
+	)
+	(wire
+		(pts
 			(xy 105.41 102.87) (xy 105.41 109.22)
 		)
 		(stroke
@@ -1410,6 +1510,16 @@
 			(type default)
 		)
 		(uuid "f55a7cf9-7e8b-4a16-b50f-e11e49b3bec5")
+	)
+	(wire
+		(pts
+			(xy 233.68 127) (xy 233.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce4e6dc-b7bf-4511-b947-8210eced183c")
 	)
 	(wire
 		(pts
@@ -1778,7 +1888,7 @@
 				)
 			)
 		)
-		(property "Value" "XT-30"
+		(property "Value" "B2B-XH"
 			(at 227.33 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1831,6 +1941,83 @@
 			(project "galaxsea_26_pdb"
 				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
 					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 213.36 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ff7c2b8-312f-4976-a403-7a188e708f03")
+		(property "Reference" "#PWR099"
+			(at 213.36 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND2"
+			(at 213.36 134.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 213.36 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "715a13e3-281c-4bf1-9be2-327d5875a63d")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -2062,6 +2249,86 @@
 			(project "galaxsea_26_pdb"
 				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 227.33 129.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2adb31e1-eff4-4981-917f-30170258cac1")
+		(property "Reference" "J37"
+			(at 227.33 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT-60"
+			(at 227.33 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 227.33 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 227.33 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1485344e-b593-48af-a7ed-f54504d9afab")
+		)
+		(pin "2"
+			(uuid "a4a34675-826e-4de3-981c-77959a1c674d")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "J37")
 					(unit 1)
 				)
 			)
@@ -2309,6 +2576,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 233.68 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "364bbf72-c04c-42f4-9ad5-83bea5b9f488")
+		(property "Reference" "#PWR0100"
+			(at 233.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+ACT"
+			(at 231.648 103.632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 233.68 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f32cf0b8-5d68-4001-94c3-e034517ed7ef")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 233.68 66.04 0)
 		(unit 1)
@@ -2380,6 +2725,83 @@
 			(project "galaxsea_26_pdb"
 				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 233.68 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3763d306-2701-41dd-ac75-54ead2712a11")
+		(property "Reference" "#PWR0101"
+			(at 233.68 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND2"
+			(at 233.68 117.094 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 233.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c635d9b9-c7bc-4cec-be6d-6d094127109d")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2458,6 +2880,84 @@
 			(project "galaxsea_26_pdb"
 				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 213.36 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d1b7532-d2da-49d9-8cb1-c089865f0486")
+		(property "Reference" "#PWR096"
+			(at 213.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+ACT"
+			(at 211.328 103.632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 213.36 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d00476c6-b40c-4d94-a29d-5db56847b18e")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2780,6 +3280,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 213.36 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a1d3a31-4b00-40d7-93a2-d91a62ded243")
+		(property "Reference" "#PWR097"
+			(at 213.36 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND2"
+			(at 213.36 117.094 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 213.36 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "027d880b-77b6-4c10-9848-4e0515a42537")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 38.1 26.67 0)
 		(unit 1)
@@ -2852,6 +3429,86 @@
 			(project "galaxsea_26_pdb"
 				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 227.33 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "529611f5-5690-4829-8add-7742521dda6e")
+		(property "Reference" "J36"
+			(at 227.33 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT-60"
+			(at 227.33 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 227.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 227.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dadca88-754c-482c-b396-8a9da80b0209")
+		)
+		(pin "2"
+			(uuid "1ef81308-9892-4415-98a2-1798bedf6f7a")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "J36")
 					(unit 1)
 				)
 			)
@@ -3084,6 +3741,86 @@
 			(project "galaxsea_26_pdb"
 				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
 					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 207.01 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e0cacc4-6fae-4e3e-bd38-e570ffbb4ee2")
+		(property "Reference" "J34"
+			(at 207.01 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT-60"
+			(at 207.01 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 207.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 207.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83f4d25f-e836-4371-a6d4-a0ec8dbe34c3")
+		)
+		(pin "2"
+			(uuid "b27ce3b4-7e22-42d4-b076-8a091c55155b")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "J34")
 					(unit 1)
 				)
 			)
@@ -3400,6 +4137,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 233.68 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "836479cb-90b3-4bb1-8165-eeca1d3d2704")
+		(property "Reference" "#PWR0102"
+			(at 233.68 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+ACT"
+			(at 231.648 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2530baa6-43fc-4d31-8bb8-a03c935fa10d")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 31.75 58.42 180)
 		(unit 1)
@@ -3474,6 +4289,161 @@
 			(project "galaxsea_26_pdb"
 				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
 					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 213.36 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8eb455b5-43bc-42c9-bef0-94965113d87b")
+		(property "Reference" "#PWR098"
+			(at 213.36 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+ACT"
+			(at 211.328 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 213.36 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b2295d3-8ba6-446f-8e94-c70812fcc3d7")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 233.68 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac4cee54-1582-4c2e-b6de-233cf39ae45e")
+		(property "Reference" "#PWR0103"
+			(at 233.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND2"
+			(at 233.68 134.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 233.68 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f91302d-59db-4444-88d6-95c7a9eba029")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -4200,7 +5170,7 @@
 				)
 			)
 		)
-		(property "Value" "XT-30"
+		(property "Value" "B2B-XH"
 			(at 207.01 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4408,6 +5378,86 @@
 			(project "galaxsea_26_pdb"
 				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 207.01 129.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f598acf7-e5bc-4976-9cca-12c8a27f0c75")
+		(property "Reference" "J35"
+			(at 207.01 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT-60"
+			(at 207.01 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 207.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 207.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75a8a558-dba9-4052-a087-c0646f9efa11")
+		)
+		(pin "2"
+			(uuid "db196727-7025-45b4-9a8a-d915efedfad9")
+		)
+		(instances
+			(project "galaxsea_26_pdb"
+				(path "/62a79688-1caa-411a-b477-96e92006e83c/1f0ef4b3-d21b-4659-a9d1-90ee6641ef1b"
+					(reference "J35")
 					(unit 1)
 				)
 			)
